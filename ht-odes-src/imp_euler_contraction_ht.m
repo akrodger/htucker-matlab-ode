@@ -6,7 +6,7 @@ function [f_out] = imp_euler_contraction_ht(N,f0,f_guess,dt,eps_err)
 %    Description of This Function:
 %        This function returns an approximate contraction mapping output
 %        for Implicit Euler method. It is guaranteed to be at most eps_er
-%        in errror from the output of implicit_euler.m
+%        in errror from the output of imp_euler_contraction.m
 %
 %	Argument List:
 %        N       : A (possibly nonlinear) time independent vector field.
